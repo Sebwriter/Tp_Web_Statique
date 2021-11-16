@@ -11,6 +11,9 @@
         .yellow {
             color: #f0b60e;
         }
+        p {
+            color: #ababab;
+        }
     </style>
 </head>
 
@@ -18,14 +21,24 @@
     <header>
 
     </header>
-    <section style="background-image: url('fond1intro\ -\ Copie.jpg'); background-size: cover; height: 328px;">
-        <div>
-            <div>
+    <section
+        style="position: relative; background-position: 75% 50%; background-size: cover; height: 400px; background-image: url('fond1intro.jpg'); background-repeat: no-repeat;">
+
+
+        <div class="overlay" style="    height: 100%;
+            width: 100%;
+            position: absolute;
+            background-color: black;
+            opacity: 50%;"></div>
+        <div style="z-index: 9999;">
+            <div class="presentation" style="padding-top: 220px;
+            width: 80%;
+            margin: auto; position: relative;">
                 <h2 style="color: white; text-align: center;">RECRUTEMENT</h2>
-            </div>
-            <hr style="color: white;">
-            <div
-                style="justify-content: center; align-content: space-around; width: 730px; margin-left: auto; margin-right: auto;">
+
+                <hr style="color: white;">
+
+
                 <p style="color: white; text-align: center;">Avec près de 1'800 collaboratrices et collaborateurs,
                     l'Hôpital du Jura est le plus grand employeur du Canton du Jura. Notre institution se caractérise
                     notamment par une large variété de fonctions (plus de 100) réparties dans 4 départements (Médical,
@@ -35,6 +48,7 @@
                     profils, n'hésitez pas à nous envoyer votre candidature.</p>
             </div>
         </div>
+
     </section>
     <section>
         <div style="text-indent: 110px">
@@ -64,76 +78,82 @@
                     <a class="yellow" style="margin-left: 8px;">NOUS DEMANDONS</a>
                 </div>
                 <div style="text-indent: 152px;">
-                <p>- Intérêt pour le milieu médical</P>
-                <p>- Facilité de contact, sens des responsabilités, flexible, dynamique</p>
-                <p>- Avoir le permis de conduire (pour les affectations d'aide-animateur)</p>
+                    <p>- Intérêt pour le milieu médical</P>
+                    <p>- Facilité de contact, sens des responsabilités, flexible, dynamique</p>
+                    <p>- Avoir le permis de conduire (pour les affectations d'aide-animateur)</p>
+                </div>
             </div>
-        </div>
             <div>
                 <div style="text-indent: 60px;">
                     <i class="fas fa-cogs"></i>
                     <a class="yellow" style="margin-left: 8px;">NOUS OFFRONS</a>
                     <div style="text-indent: 152px;">
-                <p>Une affectation riche et variée au sein d'une équipe professionnelle dynamique</p>
+                        <p>Une affectation riche et variée au sein d'une équipe professionnelle dynamique</p>
 
-            </div>
-            <div>
-                <div style="text-indent: 60px;">
-                    <i class="fas fa-percent"></i>
-                    <a class="yellow" style="margin-left: 8px;">TAUX D'ACTIVITÉ</a>
-                </div>
-                <div style="text-indent: 152px;">
-                <p>100%</p>
-</div>
-            </div>
-            <div>
-                <div style="text-indent: 60px;">
-                    <i class="fas fa-calendar-alt"></i>
-                    <a class="yellow" style="margin-left: 8px;">DATE D'ENTRÉE EN FONCTION</a>
-                </div>
-                <div style="text-indent: 152px;">
-                <p>à convenir</p>
-</div>
-            </div>
-            <div>
-                <div style="text-indent: 60px;">
-                    <i class="fas fa-cogs"></i>
-                    <a class="yellow" style="margin-left: 8px;">RENSEIGNEMENTS</a>
-                </div>
-                <div style="text-indent: 152px;">
-                <p>Pour plus d'informations, merci de contacter :</p>
-                <p>Mme Aurélie Martin, RH - Service du recrutement, tél.: +41 32 465 63 09</p>
-                <p>Postulez en ligne ou adressez votre candidature par mail à l'adresse suivante : emplois@h-ju.ch
-                </p>
-                <p>Merci de bien vouloir joindre une lettre de motivation précisant le nombre de jours de service à
-                    effectuer, la période souhaitée, ainsi que :</p>
-                <p>- CV</p>
-                <p>- Lettre de motivation</p>
-</div>
-            </div>
+                    </div>
+                    <div>
+                        <div style="text-indent: 60px;">
+                            <i class="fas fa-percent"></i>
+                            <a class="yellow" style="margin-left: 8px;">TAUX D'ACTIVITÉ</a>
+                        </div>
+                        <div style="text-indent: 152px;">
+                            <p>100%</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="text-indent: 60px;">
+                            <i class="fas fa-calendar-alt"></i>
+                            <a class="yellow" style="margin-left: 8px;">DATE D'ENTRÉE EN FONCTION</a>
+                        </div>
+                        <div style="text-indent: 152px;">
+                            <p>à convenir</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="text-indent: 60px;">
+                            <i class="fas fa-cogs"></i>
+                            <a class="yellow" style="margin-left: 8px;">RENSEIGNEMENTS</a>
+                        </div>
+                        <div style="text-indent: 152px;">
+                            <p>Pour plus d'informations, merci de contacter :</p>
+                            <p>Mme Aurélie Martin, RH - Service du recrutement, tél.: +41 32 465 63 09</p>
+                            <p>Postulez en ligne ou adressez votre candidature par mail à l'adresse suivante :
+                                emplois@h-ju.ch
+                            </p>
+                            <p>Merci de bien vouloir joindre une lettre de motivation précisant le nombre de jours de
+                                service à
+                                effectuer, la période souhaitée, ainsi que :</p>
+                            <p>- CV</p>
+                            <p>- Lettre de motivation</p>
+                        </div>
+                    </div>
         </aside>
         <aside style="float: right; width: 20%;">
             <div>
                 <button line>Connectez-vous <i class="far fa-arrow-alt-circle-down"></i></button>
             </div>
-<div>
-    <a class="yellow" style="text-decoration: none;"href="">Informations</a>
-</div>
-<div style="color: #732e9f;">
-    <i class="far fa-envelope"></i><a style="text-decoration: none;" href="">emplois@h-ju.ch</a>
-</div>
-<div>
-    <a class="yellow" style="text-decoration: none;"href="">Partager</a>
-</div>
-<div>
-    <button style="color: white; background-color: #0976b4;">LinkedIn  <i class="fab fa-linkedin" style="line-height: 0.8; color: #0976b4; background-color: white;"></i></button"><button style="margin-left: 4px; color: white; background-color: #3b5998;">Facebook  <i class="fab fa-facebook-square" style="line-height: 0.8; color: #3b5998; background-color: white;"></i></button>
-</div>
-<div>
-    <a class="yellow" style="text-decoration: none;" href="">Postuler</a>
-</div>
-<div>
-    <button line>Je postule <i class="far fa-arrow-alt-circle-down"></i></button>
-</div>
+            <div>
+                <a class="yellow" style="text-decoration: none;" href="">Informations</a>
+            </div>
+            <div style="color: #732e9f;">
+                <i class="far fa-envelope"></i><a style="text-decoration: none;" href="">emplois@h-ju.ch</a>
+            </div>
+            <div>
+                <a class="yellow" style="text-decoration: none;" href="">Partager</a>
+            </div>
+            <div>
+                <button style="color: white; background-color: #0976b4;">LinkedIn <i class="fab fa-linkedin"
+                        style="line-height: 0.8; color: #0976b4; background-color: white;"></i></button"><button
+                        style="margin-left: 4px; color: white; background-color: #3b5998;">Facebook <i
+                            class="fab fa-facebook-square"
+                            style="line-height: 0.8; color: #3b5998; background-color: white;"></i></button>
+            </div>
+            <div>
+                <a class="yellow" style="text-decoration: none;" href="">Postuler</a>
+            </div>
+            <div>
+                <button line>Je postule <i class="far fa-arrow-alt-circle-down"></i></button>
+            </div>
         </aside>
 
     </section>
